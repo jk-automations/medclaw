@@ -1,0 +1,4 @@
+User-agent: *
+Allow:
+
+Sitemap: https://medspa.jk-automations.com/sitemap.xml
