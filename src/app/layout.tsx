@@ -14,9 +14,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MedClaw | The World's First Personal MedSpa Assistant",
-  description: "Jarvis for your med spa. AI-powered automation that handles scheduling, follow-ups, intake, and reviews while you focus on treatments.",
-  keywords: "medspa automation, medical spa software, AI assistant, practice management, automation tools",
+  title: "MedClaw BAAS | MedSpa Automation That Builds, Manages & Scales Your Practice",
+  description: "Backend as a Service for MedSpas. We build, deploy, and manage your automation workflows 24/7. Focus on patients while we handle the technology. BAAS: Done-for-you MedSpa automation.",
+  keywords: "medspa automation, medical spa software, BAAS, automation as a service, practice management, medspa workflows",
+  openGraph: {
+    title: "MedClaw BAAS | MedSpa Automation That Builds, Manages & Scales",
+    description: "Backend as a Service for MedSpas. We build, deploy, and manage your automation workflows 24/7. Focus on patients while we handle the technology.",
+    url: "https://medspa.jk-automations.com",
+    siteName: "MedClaw",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "MedClaw BAAS | MedSpa Automation",
+    description: "Backend as a Service for MedSpas. We build, deploy, and manage your automation workflows 24/7.",
+  },
+  alternates: {
+    canonical: "https://medspa.jk-automations.com",
+  },
 };
 
 export default function RootLayout({

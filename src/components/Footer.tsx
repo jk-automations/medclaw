@@ -38,8 +38,8 @@ export default function Footer() {
               <span className="text-xl font-bold text-slate-100">MedClaw</span>
             </Link>
             <p className="text-slate-400 text-sm mb-6 max-w-xs">
-              The world's first personal MedSpa assistant. AI-powered automation 
-              that lets you focus on what matters most—your patients.
+              BAAS for MedSpas. We build, manage, and optimize your automation workflows 
+              24/7 so you can focus on what matters most—your patients.
             </p>
             <div className="space-y-3">
               <a href="tel:6194550700" className="flex items-center gap-3 text-slate-300 hover:text-cyan-400 transition-colors">

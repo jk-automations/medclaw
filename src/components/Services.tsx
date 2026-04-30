@@ -115,10 +115,11 @@ export default function Services() {
         >
           <span className="text-cyan-400 font-medium text-sm uppercase tracking-wider">What We Offer</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mt-3 mb-4">
-            Our <span className="gradient-text">Services</span>
+            BAAS: We Build, Manage,{" "}
+            <span className="gradient-text">You Scale</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            Comprehensive automation solutions designed specifically for MedSpas.
+            Complete automation solutions for MedSpas. We handle everything so you can focus on patients.
           </p>
         </motion.div>
 

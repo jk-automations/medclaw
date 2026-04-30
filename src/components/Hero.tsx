@@ -55,7 +55,7 @@ export default function Hero() {
         >
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-cyan-400 text-sm font-medium mb-8">
             <Sparkles className="w-4 h-4" />
-            The Future of MedSpa Management
+            BAAS: Automation Built, Managed & Optimized for You
           </span>
         </motion.div>
 
@@ -65,10 +65,10 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
         >
-          The world's first{" "}
-          <span className="gradient-text">personal MedSpa</span>
+          Your personal{" "}
+          <span className="gradient-text">AI employee</span>
           <br />
-          assistant
+          for your MedSpa
         </motion.h1>
 
         <motion.p
@@ -77,7 +77,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         >
-          "Jarvis for your med spa"
+          "The AI team that never sleeps"
         </motion.p>
 
         <motion.p
@@ -86,8 +86,9 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
         >
-          AI-powered automation that handles scheduling, follow-ups, intake, 
-          and reviews while you focus on treatments that matter.
+          AI-powered automation that handles scheduling, follow-ups, intake,
+          and reviews while you focus on patients. BAAS: we build, manage,
+          and optimize your workflows 24/7.
         </motion.p>
 
         <motion.div
