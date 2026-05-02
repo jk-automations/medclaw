@@ -5,11 +5,11 @@ import { Sparkles, Mail, MapPin, Phone } from "lucide-react";
 
 const footerLinks = {
   services: [
-    { label: "Smart Scheduling", href: "#services" },
-    { label: "Patient Follow-ups", href: "#services" },
-    { label: "Digital Intake", href: "#services" },
-    { label: "Review Generation", href: "#services" },
-    { label: "AI Chatbot", href: "#services" },
+    { label: "Voice AI", href: "#services" },
+    { label: "Lead Inbox", href: "#services" },
+    { label: "TikTok & Instagram Content", href: "#services" },
+    { label: "Social Account Management", href: "#services" },
+    { label: "Managed Automation", href: "#services" },
   ],
   company: [
     { label: "How It Works", href: "#how-it-works" },

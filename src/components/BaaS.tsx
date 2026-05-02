@@ -19,7 +19,7 @@ const features = [
   {
     icon: Shield,
     title: "Security & Compliance",
-    description: "Enterprise-grade security with full HIPAA compliance baked in."
+    description: "Compliance-aware setup with careful access, clear handoffs, and data kept only where it is needed."
   },
   {
     icon: Code,

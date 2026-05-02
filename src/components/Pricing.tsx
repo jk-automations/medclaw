@@ -13,13 +13,13 @@ const plans = [
     monthlyPrice: 997,
     yearlyPrice: 797,
     features: [
-      "5 core automations",
-      "Email & SMS sequences",
+      "5 managed automations",
+      "Voice AI (calls & SMS)",
+      "Lead inbox management",
       "Appointment reminders",
-      "Basic review requests",
+      "Email & SMS sequences",
       "Monthly optimization",
-      "Email support",
-      "Standard integrations"
+      "Email support"
     ],
     cta: "Get Started",
     popular: false
@@ -30,10 +30,10 @@ const plans = [
     monthlyPrice: 1997,
     yearlyPrice: 1597,
     features: [
-      "15+ custom automations",
+      "15+ managed automations",
+      "Voice AI + social content",
+      "TikTok & Instagram management",
       "Advanced patient journeys",
-      "AI chatbot included",
-      "Call management system",
       "Weekly optimization",
       "Priority support",
       "Custom integrations",
@@ -43,21 +43,21 @@ const plans = [
     popular: true
   },
   {
-    name: "Enterprise",
-    description: "Multi-location practices requiring custom solutions",
-    monthlyPrice: null,
-    yearlyPrice: null,
+    name: "Premium",
+    description: "Full-scale MedSpa automation with social content, Voice AI, and a dedicated execution team",
+    monthlyPrice: 3497,
+    yearlyPrice: 2797,
     features: [
       "Unlimited automations",
-      "Custom backend development",
-      "Multi-location support",
-      "White-label options",
+      "Voice AI phone & SMS agent",
+      "Social content (TikTok & Instagram)",
+      "Social account management",
+      "Managed lead inbox",
+      "Dedicated humans + agents team",
       "Daily optimization",
-      "24/7 phone support",
-      "API access",
-      "Custom AI training"
+      "24/7 priority support"
     ],
-    cta: "Contact Us",
+    cta: "Go Premium",
     popular: false
   }
 ];

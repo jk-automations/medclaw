@@ -35,33 +35,33 @@ const services = [
   },
   {
     icon: Star,
-    title: "Review Generation",
-    description: "Automated review requests that capture positive feedback and manage your online reputation.",
-    benefits: ["Google reviews", "Yelp integration", "Response automation"]
+    title: "Social Content",
+    description: "Done-for-you TikTok and Instagram content that keeps your MedSpa visible without adding to your plate.",
+    benefits: ["TikTok Reels", "Instagram posts", "Content calendar"]
   },
   {
     icon: Phone,
-    title: "Call Management",
-    description: "AI phone assistants that handle appointment calls, freeing your front desk for in-person guests.",
-    benefits: ["Answer every call", "Appointment booking", "FAQ handling"]
+    title: "Voice AI",
+    description: "AI voice agent handles inbound calls and SMS — books appointments, answers FAQs, and never misses a lead.",
+    benefits: ["Answer every call", "Appointment booking", "SMS follow-up"]
   },
   {
     icon: Mail,
-    title: "Email Automation",
-    description: "Personalized email sequences that nurture leads from first inquiry to loyal patient.",
-    benefits: ["Lead nurturing", "Promotional campaigns", "Reactivation sequences"]
+    title: "Lead Inbox",
+    description: "Managed lead inbox that qualifies, routes, and follows up with every inquiry so no lead goes cold.",
+    benefits: ["Lead qualification", "Auto follow-up", "CRM sync"]
   },
   {
     icon: Bot,
-    title: "AI Chatbot",
-    description: "Intelligent chatbot that answers patient questions, books appointments, and qualifies leads 24/7.",
-    benefits: ["Website chat", "Instagram/Facebook", "Instant responses"]
+    title: "Social Account Management",
+    description: "We manage your TikTok and Instagram presence — DMs, comments, story replies, and engagement.",
+    benefits: ["DM management", "Comment replies", "Engagement growth"]
   },
   {
     icon: Workflow,
-    title: "Custom Workflows",
-    description: "Bespoke automations tailored to your unique MedSpa processes and specializations.",
-    benefits: ["Process mapping", "Custom triggers", "Multi-step sequences"]
+    title: "Managed Execution",
+    description: "Humans and agents working together to run every workflow, monitor results, and handle escalations.",
+    benefits: ["24/7 monitoring", "Human oversight", "Escalation handling"]
   }
 ];
 

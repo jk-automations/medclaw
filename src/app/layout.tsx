@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MedClaw BAAS | MedSpa Automation That Builds, Manages & Scales Your Practice",
-  description: "Backend as a Service for MedSpas. We build, deploy, and manage your automation workflows 24/7. Focus on patients while we handle the technology. BAAS: Done-for-you MedSpa automation.",
-  keywords: "medspa automation, medical spa software, BAAS, automation as a service, practice management, medspa workflows",
+  title: "MedClaw | BAAS for MedSpas — Voice AI, Social Content & Managed Automation",
+  description: "MedClaw is a BAAS for MedSpas. We provide Voice AI, TikTok/Instagram social content, social account management, lead inbox, and fully managed execution — starting at $997/month.",
+  keywords: "medspa automation, BAAS, voice AI medspa, social content medspa, TikTok Instagram medspa, lead inbox, managed automation, medical spa software",
   openGraph: {
-    title: "MedClaw BAAS | MedSpa Automation That Builds, Manages & Scales",
-    description: "Backend as a Service for MedSpas. We build, deploy, and manage your automation workflows 24/7. Focus on patients while we handle the technology.",
+    title: "MedClaw | BAAS for MedSpas — Voice AI, Social Content & Managed Automation",
+    description: "Voice AI, TikTok/Instagram social content, social account management, and lead inbox — all managed for your MedSpa. Starting at $997/month.",
     url: "https://medspa.jk-automations.com",
     siteName: "MedClaw",
     locale: "en_US",
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "MedClaw BAAS | MedSpa Automation",
-    description: "Backend as a Service for MedSpas. We build, deploy, and manage your automation workflows 24/7.",
+    title: "MedClaw | BAAS for MedSpas — Voice AI, Social Content & Managed Automation",
+    description: "Voice AI, TikTok/Instagram social content, social account management, and lead inbox — all managed for your MedSpa.",
   },
   alternates: {
     canonical: "https://medspa.jk-automations.com",

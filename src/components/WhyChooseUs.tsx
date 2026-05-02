@@ -96,19 +96,19 @@ export default function WhyChooseUs() {
               and deliver exceptional patient experiences.
             </p>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-6">
-              <div className="text-center p-4 rounded-xl glass-card">
-                <div className="text-3xl font-bold gradient-text mb-1">50+</div>
-                <div className="text-slate-400 text-sm">MedSpas Served</div>
+            {/* Capabilities */}
+            <div className="grid grid-cols-1 gap-4">
+              <div className="p-4 rounded-xl glass-card">
+                <div className="font-semibold text-slate-100 mb-1">BAAS — fully managed</div>
+                <div className="text-slate-400 text-sm">We build, run, and optimize every workflow. You never touch the tech.</div>
               </div>
-              <div className="text-center p-4 rounded-xl glass-card">
-                <div className="text-3xl font-bold gradient-text mb-1">10K+</div>
-                <div className="text-slate-400 text-sm">Hours Saved</div>
+              <div className="p-4 rounded-xl glass-card">
+                <div className="font-semibold text-slate-100 mb-1">Humans + agents working together</div>
+                <div className="text-slate-400 text-sm">Dedicated team members oversee every AI agent so nothing falls through the cracks.</div>
               </div>
-              <div className="text-center p-4 rounded-xl glass-card">
-                <div className="text-3xl font-bold gradient-text mb-1">98%</div>
-                <div className="text-slate-400 text-sm">Satisfaction</div>
+              <div className="p-4 rounded-xl glass-card">
+                <div className="font-semibold text-slate-100 mb-1">Live in under two weeks</div>
+                <div className="text-slate-400 text-sm">Most automations are deployed and running before your next billing cycle.</div>
               </div>
             </div>
           </motion.div>
