@@ -1,14 +1,22 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { Sparkles, ArrowRight } from "lucide-react";
 
 export default function Hero() {
+  const { scrollY } = useScroll();
+  const bgY = useTransform(scrollY, [0, 500], [0, 150]);
+  const orb1Y = useTransform(scrollY, [0, 500], [0, -100]);
+  const orb2Y = useTransform(scrollY, [0, 500], [0, -200]);
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Animated background */}
-      <div className="absolute inset-0 animated-gradient" />
+      {/* Parallax background */}
+      <motion.div
+        className="absolute inset-0 animated-gradient"
+        style={{ y: bgY }}
+      />
       
       {/* Grid pattern overlay */}
       <div 
@@ -20,12 +28,12 @@ export default function Hero() {
         }}
       />
       
-      {/* Floating orbs */}
+      {/* Parallax floating orbs */}
       <motion.div
         className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/10 rounded-full blur-3xl"
+        style={{ y: orb1Y }}
         animate={{
           x: [0, 50, 0],
-          y: [0, 30, 0],
         }}
         transition={{
           duration: 8,
@@ -35,9 +43,9 @@ export default function Hero() {
       />
       <motion.div
         className="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"
+        style={{ y: orb2Y }}
         animate={{
           x: [0, -30, 0],
-          y: [0, -50, 0],
         }}
         transition={{
           duration: 10,

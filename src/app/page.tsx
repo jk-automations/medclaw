@@ -9,20 +9,37 @@ import WhatWeDontDo from "@/components/WhatWeDontDo";
 import Pricing from "@/components/Pricing";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import AnimatedSection from "@/components/AnimatedSection";
 
 export default function Home() {
   return (
     <main className="relative">
       <Navigation />
       <Hero />
-      <HowItWorks />
-      <Services />
-      <Workflows />
-      <WhyChooseUs />
-      <BaaS />
-      <WhatWeDontDo />
-      <Pricing />
-      <CTA />
+      <AnimatedSection>
+        <HowItWorks />
+      </AnimatedSection>
+      <AnimatedSection delay={0.1}>
+        <Services />
+      </AnimatedSection>
+      <AnimatedSection delay={0.05}>
+        <Workflows />
+      </AnimatedSection>
+      <AnimatedSection delay={0.1}>
+        <WhyChooseUs />
+      </AnimatedSection>
+      <AnimatedSection delay={0.05}>
+        <BaaS />
+      </AnimatedSection>
+      <AnimatedSection delay={0.1}>
+        <WhatWeDontDo />
+      </AnimatedSection>
+      <AnimatedSection delay={0.05}>
+        <Pricing />
+      </AnimatedSection>
+      <AnimatedSection delay={0.1}>
+        <CTA />
+      </AnimatedSection>
       <Footer />
     </main>
   );
